@@ -1,6 +1,6 @@
 #a class of person with the following; name , age and gender as the attribute
 #a constructor , a method and an object
-from oop import myobj
+#from oop import myobj
 
 
 class Student:

@@ -5,8 +5,6 @@ class Book:
         self.title = title
         self.author = author
 
-        def displayinfo():
-            return f"Title:{self.title}, Author:{self.author}"
 
 #child class/derived class
 class LibraryBook(Book):
@@ -19,7 +17,7 @@ class LibraryBook(Book):
             self.copies_available -= 1
             return f"{self.title} borrowed.copies left {self.copies_available}"
         else:
-            return f"No of Title {self.titel} available"
+            return f"No of Title {self.title} available"
     def return_book(self):
         self.copies_available += 1
         return f"{self.title} returned.copies left {self.copies_available}"
